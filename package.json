@@ -1,0 +1,30 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "burger Eat-Da-Burger! app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaraye/burger.git"
+  },
+  "author": "Yodit A.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yaraye/burger/issues"
+  },
+  "homepage": "https://github.com/yaraye/burger#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "env": "0.0.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^3.0.0",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {}
+}

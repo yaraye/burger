@@ -1,0 +1,30 @@
+.container{
+padding-right: 10%;
+padding-left: 10%;
+padding-top: 20px; 
+align-content: center;
+}
+
+body{
+    font-family: 'Sawarabi Mincho', sans-serif;
+   background-image: url('../img/burger2.jpn.jpg');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat; 
+   background-attachment: fixed;
+}
+input{
+    padding:20px;
+    width: 430px;
+}
+#na{
+    padding: 15px;
+}
+.btn.btn-primary{
+    padding: 10px 28px;
+    background-color: gold;
+    color: black;
+}
+h4{
+    font:bold;
+}
