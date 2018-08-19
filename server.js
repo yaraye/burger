@@ -6,7 +6,7 @@ var exphbs  = require('express-handlebars');
 var router = require('./controllers/burgers_controllers.js');
 
 var PORT = process.env.PORT || 7009;
-if (process.env.NODE_ENV !== 'production') { require('dotenv').config() }
+
 
 
 app.use(express.static(__dirname + '/public'));
