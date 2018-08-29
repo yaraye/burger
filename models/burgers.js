@@ -4,13 +4,13 @@
     var burgers={
         all: function(cb){
 
-            orm.all("lvgrprz89qntq881", function(res){
+            orm.all('burgers', function(res){
                 cb(res);
             })
         },
 
         update: function (id,cb) {
-            orm.update("lvgrprz89qntq881",id,cb);
+            orm.update('burgers',id,cb);
 
             },
 
