@@ -7,7 +7,7 @@ var connection = mysql.createConnection({
     user: process.env.USERNAME,
     password: process.env.PASSWORD,
     port:3306,
-    database:"ntpxx0dv7pja96h7"
+    database:"dxvqgt41vyj5eigy"
 });
 
 connection.connect(function(err){
